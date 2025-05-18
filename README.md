@@ -1,7 +1,7 @@
-H3>NIVETHA S</H3>
-<H3>212223040137</H3>
+H3>ENTER YOUR NAME : S NIVETHA </H3>
+<H3>ENTER YOUR REGISTER NO. 212223040137</H3>
 <H3>EX. NO.5</H3>
-<H3>DATE:12-05-2025</H3>
+<H3>DATE: 18/05/2025</H3>
 <H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
 <H3>Aim:</H3>
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
@@ -35,7 +35,7 @@ Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
 
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -107,20 +107,11 @@ print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 
+
 ```
-
-
 <H3>OUTPUT:</H3>
-![Screenshot 2025-05-12 144044](https://github.com/user-attachments/assets/6412f098-cf74-40ca-b690-917626717559)
 
+![image](https://github.com/user-attachments/assets/c9511e4d-873a-4c3d-b83a-fd8c2b057028)
 
 <H3>Result:</H3>
 Thus , a Radial Basis Function Neural Network is implemented to classify XOR data.
-
-
-
-
-
-
-
-
